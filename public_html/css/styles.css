@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --page-color: #FFFFF;
+  --ms-0: 16px;
+  --body-font: "Plus Jakarta Sans", sans-serif;
+  --line-height-body: 1.5;
+  /* NAVBAR */
+  --nav-font: "Archivo Black", sans-serif;
+  --font-color: #333333;
+  /* BOLD */
+  --extrabold: 800;
+  --semibold: 600;
+  --bold: 700;
+  --regular: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  font-family: var(--body-font) !important;
+  line-height: var(--line-height-body) !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: var(--ms-0) !important;
+}
+
+.gaby-logo {
+  font-family: var(--nav-font);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26.11px;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  border-radius: 24px;
+}
+
+li .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: var(--font-color);
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 14px;
+  font-family: var(--body-font);
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+}
+.menu a::after {
+  content: "";
+  width: 1.5rem;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.menu a:hover::after {
+  opacity: 1;
+}
+.menu a:hover {
+  color: #c3c3c3;
+}
+
+.container-volanta{
+  width: 1320px;
+  height: 5087px;
+  padding: 3rem;
+  margin-left: 130px;
+}
+
+
+.img-volanta img{
+  border-radius: 20px;
+  margin: 0;
+}
+section .container{
+  margin-top: 80px;
+}
+
+.hero img{
+  width: 1320px;
+  height: 740px;
+  border-radius: 20px;
+}
+
+.link-big {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: var(--body-font);
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.link-small {
+  font-family: var(--body-font);
+  font-weight: var(--extrabold);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: olique;
+  text-decoration: none;
+}
+
+.volanta-big {
+  display: flex;
+  font-family: var(--body-font);
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+}
+
+.volanta-small {
+  font-family: var(--body-font);
+  font-weight: var(--bold);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.title-big {
+  font-family: var(--body-font);
+  font-size: 48px;
+  font-weight: var(--bold);
+  line-height: 150%;
+  text-align: left;
+}
+
+.title-small {
+  font-family: var(--body-font);
+  font-size: 20px;
+  font-weight: var(--semibold);
+  color: #ffffff;
+}
+
+.caption {
+  font-family: var(--body-font);
+  font-weight: var(--regular);
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.proyectos .card-title {
+  color: #fff !important;
+}
+
+.proyectos .card-title .caption {
+  color: #333333;
+}
+
+.proyectos .card {
+  border: 0 !important;
+}
+
+.proyectos .card img{
+  border-radius: 20px 20px 0 0;
+}
+
+.proyectos .card-body {
+  height: 13rem;
+  background: #666666;
+  border-radius: 0 0 20px 20px;
+}
+
+.proyectos .link-small {
+  color: #ffffff;
+}
+
+.proyectos .link-big {
+  margin: 25px 40px;
+  padding-bottom: 40px;
+}
+
+.card-body-article {
+  height: 13rem;
+  background: none;
+  border: 0;
+}
+
+.article .card {
+  flex-direction: row;
+}
+
+.article .link-small{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333;
+}
+
+.article .link-small i{
+  color: #333333;
+}
+
+.article .link-big {
+  margin: 25px 40px;
+  padding-bottom: 40px;
+}
+
+/* .img-nav img {
+  border-radius: 24px;
+}
+
+ul .navbar-nav {
+  width: Hug (120px) px;
+  height: Hug (44px) px;
+  padding: 12px 20px 12px 20px;
+  gap: 10px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+}
+
+li .nav-link {
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: var(--font-color);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 0;
+  }
+} */
