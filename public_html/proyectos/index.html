@@ -1,71 +1,474 @@
-<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
-    <link rel="stylesheet" href="/public_html/css/styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gabriel Luna</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/public_html/css/styles.css">
+    <!-- EXTERNAL OWL CAROUSEL CSS CDN LINKS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="header">
+    <!-- HEADER SECTION -->
+    <header class="mb-2 border border-top-0 border-end-0 border-start-0 sticky-top" style="background-color: #ffffff;">
         <div class="container container-fluid">
-            <nav class="navbar navbar-expand-lg" style="background: #FFFFFF;">
+            <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #ffffff;">
                 <div class="container-fluid">
-                    <a class="navbar-brand gaby-logo" href="#">
-                        <img src="/public_html/img/logo.svg" alt="logo" width="48" height="48"
-                            class="d-inline-block align-text-center me-2">
-                        Gabriel Luna
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand fs-2 fw-bold" href="/public_html/index.html"><img src="/public_html/img/logo.svg" alt="logo"
+                            width="48" height="48" class="d-inline-block align-text-center me-2"><span
+                            class="gaby-logo">Gabriel
+                            Luna</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLight"
+                        aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Proyectos</a>
+                    <div class="collapse navbar-collapse show" id="navbarLight">
+                        <ul class="navbar-nav mb-2 mb-xl-0 fs-5 ms-auto p-2 text-center menu">
+                            <li class="nav-item p-2">
+                                <a class="nav-link ps-3 pe-3" href="#">Proyectos</a>
                             </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Sobre mí</a>
+                            <li class="nav-item p-2">
+                                <a class="nav-link ps-3 pe-3" href="/public_html/sobremi/index.html">Sobre mi</a>
                             </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link ps-3 pe-3" href="#">Artículos</a>
                             </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Articulos</a>
-                            </li>
-                            <li class="nav-item px-4">
-                                <a class="nav-link" href="#">Contacto</a>
+                            <li class="nav-item p-2">
+                                <a class="nav-link ps-3 pe-3" href="#">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <hr class="border">
         </div>
     </header>
-    <section class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                <h2 class="volanta-big">Volanta</h2>
+    <!-- H1 + IMAGEN SECTION -->
+    <div class="container container-fluid">
+        <section class="brand-section">
+            <!-- DESKTOP -->
+            <div class="row row-desktop">
+                <div class="col-md-8 col-sm-12">
+                    <h2 class="volanta-big">Volanta</h2>
+                    <h1 class="title-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                </div>
+                <div class="col-sm-12 mobile-col">
+                    <h1 class="title-big-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="row row-reverse">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <img src="/public_html/img/315x180.svg" alt="logo-sarasa" class="img-fluid brand">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-                <img src="/public_html/img/315x180.svg" alt="" >
+            <!-- MOBILE -->
+            <div class="row row-mobile">
+                <div class="col-sm-12">
+                    <h2 class="volanta-big">Volanta</h2>
+                </div>
+                <div class="col-sm-12 mobile-col mb-5">
+                    <h1 class="title-big-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                </div>
+                <div class="col-sm-12 mobile-col">
+                    <div class="row row-reverse">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <img src="/public_html/img/315x180.svg" alt="logo-sarasa" class="img-fluid brand width-mobile">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-                <h2 class="title-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+            <div class="row">
+                <div class="col-12">
+                    <img class="img-fluid img-rounded mt-5" src="/public_html/img/1320x740.svg" alt="hero-image">
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="row pt-5 row-desktop">
+                <div class="col-3">
+                    <h3 class="volanta-small">Client</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+                <div class="col-3">
+                    <h3 class="volanta-small">Role</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+                <div class="col-3">
+                    <h3 class="volanta-small">Skills</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+                <div class="col-3">
+                    <h3 class="volanta-small">Team</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="row pt-5 mb-0 row-mobile">
+                <div class="col">
+                    <h3 class="volanta-small">Client</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+                <div class="col">
+                    <h3 class="volanta-small">Role</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+            </div>
+            <hr class="border border-invis">
+            <div class="row mb-0 row-mobile">
+                <div class="col mt-2">
+                    <h3 class="volanta-small">Skills</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+                <div class="col mt-2">
+                    <h3 class="volanta-small">Team</h3>
+                    <p class="caption">Lorem ipsum</p>
+                </div>
+            </div>
+        </section>
+        <hr class="border">
+        <!-- INFO SECTION -->
+        <section class="info-desafio">
+            <!-- <DESKTOP> -->
+            <div class="row row-desktop">
+                <div class="col-2">
+                    <h2 class="volanta-big">Desafío</h2>
+                </div>
+                <div class="col-8">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+            <!-- <MOBILE> -->
+            <div class="row row-mobile">
+                <div class="col-12">
+                    <h2 class="volanta-big mb-4">Desafío</h2>
+                </div>
+                <div class="col-12">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr class="border">
+        <section class="info-solucion">
+            <!-- <DESKTOP> -->
+            <div class="row row-desktop">
+                <div class="col-2">
+                    <h2 class="volanta-big">Solución</h2>
+                </div>
+                <div class="col-8">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+            <!-- <MOBILE> -->
+            <div class="row row-mobile">
+                <div class="col-12">
+                    <h2 class="volanta-big mb-4">Solución</h2>
+                </div>
+                <div class="col-12">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr class="border">
+        <section class="info-resultado">
+            <!-- <DESKTOP> -->
+            <div class="row row-desktop">
+                <div class="col-2">
+                    <h2 class="volanta-big">Resultado</h2>
+                </div>
+                <div class="col-8">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                    <div class="row row-desktop">
+                        <div class="col-4">
+                            <h2 class="resultado">100%</h2>
+                            <h3 class="resultado-text text-align-center">Lorem ipsum dolor sit amet</h3>
+                        </div>
+                        <div class="col-4">
+                            <h2 class="resultado">100%</h2>
+                            <h3 class="resultado-text text-align-center">Lorem ipsum dolor sit amet</h3>
+                        </div>
+                        <div class="col-4">
+                            <h2 class="resultado">100%</h2>
+                            <h3 class="resultado-text">Lorem ipsum dolor sit amet</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <MOBILE> -->
+            <div class="row row-mobile">
+                <div class="col-12">
+                    <h2 class="volanta-big mb-4">Resultado</h2>
+                </div>
+                <div class="col-12">
+                    <h2 class="title-medium-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                    <p class="text-desktop mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-mobile">
+                <div class="col-12">
+                    <h2 class="resultado">100%</h2>
+                    <h3 class="resultado-text text-align-center">Lorem ipsum dolor sit amet</h3>
+                </div>
+                <div class="col-12">
+                    <h2 class="resultado">100%</h2>
+                    <h3 class="resultado-text">Lorem ipsum dolor sit amet</h3>
+                </div>
+            </div>
+        </section>
+        <!-- FULL WIDTH IMAGE -->
+        <section class="full-width-image">
+            <!-- DESKTOP -->
+            <div class="row row-desktop">
+                <div class="col-12">
+                    <img class="img-fluid img-rounded mt-5" src="/public_html/img/1320x740.svg" alt="hero-image">
+                </div>
+            </div>
+            <div class="row row-desktop py-5 mt-5">
+                <div class="col-2">
+                    <h2 class="volanta-big">Detalles</h2>
+                </div>
+                <div class="col-8">
+                    <h2 class="title-medium-desktop">Title</h2>
+                    <p class="text-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <!-- MOBILE -->
+            <div class="row row-mobile">
+                <div class="col-12">
+                    <img class="img-fluid img-rounded" src="/public_html/img/1320x740.svg" alt="hero-image">
+                </div>
+            </div>
+            <div class="row row-mobile py-5 mt-5">
+                <div class="col-12">
+                    <h2 class="volanta-big mb-4">Detalles</h2>
+                </div>
+                <div class="col-12">
+                    <h2 class="title-medium-desktop mb-5">Title</h2>
+                    <p class="text-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
+            <hr class="border">
+            <!-- </div> -->
+        </section>
+        <!-- OTROS PROYECTOS SECTION -->
+        <section class="proyectos">
+            <!-- <div class="container container-fluid mt-0"> -->
+            <div class="card-horizol d-flex align-items-start">
+                <h2 class="title-big text-start">Otros Proyectos</h2>
+                <h2 class="title-big-mobile p-3 text-start">Proyectos</h2>
+                <a class="link-big" href="#">Ver todos<i class="fa-solid fa-chevron-right ms-3 mt-1"></i></a>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="/public_html/img/427x300.svg" class="card-img-top primary" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title volanta-small mt-3 p-3 pb-0">Volanta</h5>
+                            <p class="card-text p-3 pt-0 pb-0 mb-3 title-small">Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicing elit</p>
+                            <a href="#" class="link-small ps-3 pt-3" href="#">Ver proyecto<i
+                                    class="fa-solid fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="/public_html/img/427x300.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title volanta-small mt-3 p-3 pb-0">Volanta</h5>
+                            <p class="card-text p-3 pt-0 pb-0 mb-3 title-small">Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicing elit</p>
+                            <a href="#" class="link-small ps-3 pt-3" href="#">Ver proyecto<i
+                                    class="fa-solid fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="/public_html/img/427x300.svg" class="card-img-top terciary" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title volanta-small mt-3 p-3 pb-0">Volanta</h5>
+                            <p class="card-text p-3 pt-0 pb-0 mb-3 title-small">Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicing elit</p>
+                            <a href="#" class="link-small ps-3 pt-3" href="#">Ver proyecto<i
+                                    class="fa-solid fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0 d-flex justify-content-between">
+                <div class="col-sm-12 link-mobile mt-5">
+                    <a href="#">Todos los proyectos<i class="fa-solid fa-chevron-right ms-3 mt-1"></i></a>
+                </div>
+            </div>
+            <!-- </div> -->
+        </section>
+        <hr class="border">
+        <section class="footer-section">
+            <!-- <div class="container container-fluid mt-5"> -->
+            <footer class="footer mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6 d-flex jc-start">
+                        <h3 class="footer">&copy; 2024 - Gabriel Luna</h3>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 pe-0 d-flex jc-end">
+                        <h4 class="title-small">contacto@gabioluna.com</h4>
+                    </div>
+                    <div class="col-sm-12 col-lg-2 d-flex justify-content-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item p-1">
+                                <a href="#" class="text-dark" style="font-size: 23px;"><i
+                                        class="fa-brands fa-linkedin d-flex justify-content-end"></i></a>
+                            </li>
+                            <li class="list-inline-item p-1">
+                                <a href="#" class="text-dark" style="font-size: 23px;"><i
+                                        class="fa-brands fa-square-behance d-flex justify-content-end"></i></a>
+                            </li>
+                            <li class="list-inline-item p-1">
+                                <a href="#" class="text-dark" style="font-size: 23px;"><i
+                                        class="fa-brands fa-medium d-flex justify-content-end"></i></a>
+                            </li>
+                            <li class="list-inline-item p-1">
+                                <a href="#" class="text-dark" style="font-size: 23px;"><i
+                                        class="fa-brands fa-square-dribbble d-flex justify-content-end"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-- </div> -->
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
-
-
-    <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/6607fc58ed.js" crossorigin="anonymous"></script>
+    <script src="/public_html/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
