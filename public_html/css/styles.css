@@ -372,6 +372,10 @@ section, hr {
   border-radius: 100px;
 }
 
+
+
+
+
 /* RESPONSIVE */
 @media (max-width: 468px) {
   header ul me-5 {
@@ -381,6 +385,10 @@ section, hr {
   section, hr {
     margin-top: 40px;
   }
+
+  .brand-section .dis-none {
+    display: none;
+  }  
 
   .container {
     padding-left: 20px !important;
