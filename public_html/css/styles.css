@@ -169,10 +169,6 @@ section, hr {
   text-align: left;
 }
 
-.title-big-mobile {
-  display: none;
-}
-
 .title-medium-desktop {
   font-family: var(--body-font);
   font-weight: var(--semibold);
@@ -218,7 +214,6 @@ section, hr {
 }
 
 .proyectos .card-body {
-  height: 13rem;
   background: #666666;
   border-radius: 0 0 20px 20px;
 }
@@ -352,19 +347,11 @@ section, hr {
   display: none;
 }
 
-.row-mobile {
-  display: none;
-}
-
 .img-rounded {
   border-radius: 20px;
 }
 
 .border-invis {
-  display: none;
-}
-
-.row-mobile {
   display: none;
 }
 
@@ -377,7 +364,7 @@ section, hr {
 
 
 /* RESPONSIVE */
-@media (max-width: 468px) {
+@media (max-width: 576px) {
   header ul me-5 {
     margin-right: auto !important;
   }
@@ -404,20 +391,12 @@ section, hr {
     display: block;
   }
 
-  .row-mobile {
-    display: flex;
-  }
-
   .width-mobile {
     width: 55%;
   }
 
   .border-invis {
     display: block;
-  }
-
-  .row-desktop {
-    display: none;
   }
 
   .brand-section .row-reverse {
@@ -439,10 +418,6 @@ section, hr {
   .volanta-big {
     font-size: 16px;
     line-height: 48px;
-  }
-
-  .title-big {
-    display: none;
   }
 
   .link-big  {
@@ -485,8 +460,7 @@ section, hr {
     color: #333333;
   }
 
-  .title-big-mobile {
-    display: block;
+  .title-big {
     font-family: var(--body-font);
     font-size: 32px;
     font-weight: var(--bold);
